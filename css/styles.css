@@ -2,3 +2,78 @@ body {
     font-family: 'Raleway', sans-serif;
     max-width: 1400px;
 }
+ 
+/* HEADER*/
+
+#logo {
+    width : 70px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 25px 20px 35px;
+}
+
+nav {
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    align-content: center;
+    margin-top: -8px;
+}
+
+a {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin-top: 0;
+}
+
+.nav_list {
+    height: 100px;
+    min-width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    border-top: 2px solid rgb(255, 255, 255);
+}
+
+.nav_list:hover {
+    border-top: 3px solid #0065FC;
+    color: #0065FC;
+}
+
+.nav li {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/*MAIN*/
+
+#search {
+    padding: 0 35px;
+}
+
+.slogan h1 {
+    font-size: 22px;
+    margin-bottom: 4px;
+}
+
+.slogan p {
+    font-size: 16px;
+    margin-top: 4px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.loup {
+    display: none;
+}
