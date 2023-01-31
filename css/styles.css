@@ -627,6 +627,7 @@ footer p {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
         width: 100%;
         padding: 0;
     }
@@ -635,15 +636,11 @@ footer p {
         padding-left: 22px;
     }
 
-    #search_bar {
-        width: 100%;
-    }
-
     #search_text {
         font-size: 18px;
         height: 49px;
-        width: 100%;
         position: relative;
+        width: 85%;
     }
 
     #button span {
@@ -679,7 +676,6 @@ footer p {
 
     .search_items {
         margin-top: 10px;
-        width: 100%;
     }
 
     .filter_items {
