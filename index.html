@@ -40,8 +40,8 @@
                 <label for="search_text"><i class="fa-solid fa-location-dot location"></i></label>
                 <form method="post" action="/OpenClassrooms/P2/Booki/booki.html" id="form">
                     <input id="search_text" type="search" value="Marseille, France" name="recherche">
-                    <button id="button"><span>Rechercher</span>
-                    <i class="fa-sharp fa-solid fa-magnifying-glass loup"></i></button>
+                    <button id="button"><a href="#"><span>Rechercher</span>
+                    <i class="fa-sharp fa-solid fa-magnifying-glass loup"></i></a></button>
                 </form>
             </div>
             
@@ -49,26 +49,34 @@
                 <p><span>Filtres</span></p>
                 <ul class="search_items">
                 <li class="filter_items">
+                    <a href="#">
                         <i class="fas fa-money-bill-wave"></i>
-                        <a href="#" class="filter_button">Économique</a>
+                        <div class="filter_button">Économique</div>
+                    </a>
                 </li>
 
 
                 <li class="filter_items">
+                    <a href="#">
                         <i class="fas fa-child"></i>
-                        <a href="#" class="filter_button">Familial</a>
+                        <div class="filter_button">Familial</div>
+                    </a>
                 </li>
 
 
                 <li class=" filter_items">
+                    <a href="#">
                         <i class="fas fa-heart"></i>
-                        <a href="#" class="filter_button">Romantique</a>
+                        <div class="filter_button">Romantique</div>
+                    </a>
                 </li>
 
 
                 <li class="filter_items">
+                    <a href="#">
                         <i class="fas fa-dog"></i>
-                        <a href="#" class="filter_button">Animaux autorisés</a>
+                        <div class="filter_button">Animaux autorisés</div>
+                    </a>
                 </li>
                 </ul>
             </div>
@@ -159,7 +167,9 @@
                         </a>
                     </article>
                 </div>
-                <h2 id="hebergements_marseille_footer">Afficher plus</h2>
+                <a href="#hebergements_marseille">
+                    <h2 id="hebergements_marseille_footer">Afficher plus</h2>
+                </a>
             </div>
          
             <div class="populaires">
@@ -228,32 +238,40 @@
             <div class="activites_marseille">
 
                 <div class="card_activ">
-                <div class="card_img_activ">
-                        <img src="images/activites/3_medium/vieuxport.jpg" alt="photo du vieux port" title="Vieux-port"
-                        >
-                </div>
-                <p>Vieux-port</p>
-                </div>
-
-                <div class="card_activ">
-                <div class="card_img_activ">
-                        <img src="images/activites/3_medium/fortpomegues.jpg" alt="photo du fort pomegues" title="fort-pomegues" >
-                </div>
-                <p>Fort de Pomègues</p>
+                    <a href="#activites">
+                        <div class="card_img_activ">
+                                <img src="images/activites/3_medium/vieuxport.jpg" alt="photo du vieux port" title="Vieux-port"
+                                >
+                        </div>
+                        <p>Vieux-port</p>
+                    </a>
                 </div>
 
                 <div class="card_activ">
-                <div class="card_img_activ">
-                        <img src="images/activites/3_medium/calanques.jpg" alt="photo des calanques" title="calanques" >
-                </div>
-                <p>Parc national des Calanques</p>
+                    <a href="#activites">
+                        <div class="card_img_activ">
+                                <img src="images/activites/3_medium/fortpomegues.jpg" alt="photo du fort pomegues" title="fort-pomegues" >
+                        </div>
+                        <p>Fort de Pomègues</p>
+                    </a>
                 </div>
 
                 <div class="card_activ">
-                <div class="card_img_activ">
-                        <img src="images/activites/3_medium/notredame.jpg" alt="photo de notre notre dame" title="notre-dame" >
+                    <a href="#activites">
+                        <div class="card_img_activ">
+                                <img src="images/activites/3_medium/calanques.jpg" alt="photo des calanques" title="calanques" >
+                        </div>
+                        <p>Parc national des Calanques</p>
+                    </a>
                 </div>
-                <p>Notre-Dame-de-la-Garde</p>
+
+                <div class="card_activ">
+                    <a href="#activites">
+                        <div class="card_img_activ">
+                                <img src="images/activites/3_medium/notredame.jpg" alt="photo de notre notre dame" title="notre-dame" >
+                        </div>
+                        <p>Notre-Dame-de-la-Garde</p>
+                    </a>
                 </div>
 
             </div>
@@ -268,19 +286,35 @@
 
             <div class="bloc_footer">
                 <h2>À propos</h2>
-                <p>Fonctionnement du site</p>
-                <p>Conditions générales</p>
-                <p>Données et confidentialité</p>
+                <a href="#">
+                    <p>Fonctionnement du site</p>
+                </a>
+                <a href="#">
+                    <p>Conditions générales</p>
+                </a>
+                <a href="#">
+                    <p>Données et confidentialité</p>
+                </a>
             </div>
+            
             <div class="bloc_footer">
                 <h2>Nos hébergements</h2>
-                <p>Charte qualité</p>
-                <p>Proposer votre hôtel</p>
+                <a href="#">
+                    <p>Charte qualité</p>
+                </a>
+                <a href="#">
+                    <p>Proposer votre hôtel</p>
+                </a>
             </div>
+
             <div class="bloc_footer">
                 <h2>Assistance</h2>
-                <p>Centre d'aide</p>
-                <p>Nous contacter</p>
+                <a href="#">
+                    <p>Centre d'aide</p>
+                </a>
+                <a href="#">
+                    <p>Nous contacter</p>
+                </a>
             </div>
             
         </div>

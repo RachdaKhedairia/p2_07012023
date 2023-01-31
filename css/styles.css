@@ -141,7 +141,7 @@ nav ul {
     min-height: 50px;
 }
 
-.filter_items {
+.filter_items a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -165,7 +165,7 @@ nav ul {
     margin-left: -3px;
 }
 
-.filter_items:hover {
+.filter_items a:hover {
     background-color: #DEEBFF;
 }
 
@@ -346,6 +346,7 @@ nav ul {
 .populaires h3 {
     font-size: 16px;
     margin-bottom: 5px;
+    margin-top: 5px;
 }
 
 .populaires p {
@@ -537,5 +538,14 @@ footer p {
 }
 
 @media screen and (max-width: 768px) {
-    
+
+    header {
+        display: block;
+    }
+
+    .logo a {
+        display: grid;
+        place-items: center;
+    }
+
 }
