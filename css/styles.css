@@ -3,7 +3,7 @@ body {
     max-width: 1400px;
 }
  
-/* HEADER*/
+/* HEADER */
 
 #logo {
     width : 70px;
@@ -56,7 +56,7 @@ nav ul {
     padding-right: 30px;
 }
 
-/*MAIN*/
+/* RECHERCHE */
 
 #search {
     padding: 0 35px;
@@ -80,7 +80,7 @@ nav ul {
     padding-bottom: 15px;
 }
 
-.star_active {
+.star_active , .item_active {
     color: #0065FC;
 }
 
@@ -154,8 +154,6 @@ nav ul {
 }
 
 .search_items i {
-
-    color: rgb(0, 101, 252);
     height: 20px;
     width: 55px;
     text-align: center;
@@ -187,7 +185,7 @@ nav ul {
     border: 2px #f2f2f28a solid;
 }
 
-/*HÉBERGEMENTS*/
+/* HÉBERGEMENTS */
 
 #hebergements {
     display: flex;
@@ -242,8 +240,8 @@ nav ul {
     padding-left: 10px;
 }
 
-.card_heb h3 {
-    margin: 5px 0;
+.heb_title {
+    margin: 5px 0px;
 }
 
 .card_heb p {
@@ -273,7 +271,7 @@ nav ul {
     font-size: 18px;
 }
 
-/*POPULAIRES*/
+/* POPULAIRES */
 
 .pop_title {
     display: flex;
@@ -353,7 +351,7 @@ nav ul {
     font-size: 14px;
 }
 
-/*ACTIVITÉS*/
+/* ACTIVITÉS */
 
 .activites_marseille {
     display: flex;
@@ -409,7 +407,7 @@ nav ul {
 
 /* FOOTER */
 
-.bloc_group_footer {
+footer {
     display: flex;
     align-items: center;
     background-color: #F2F2F2;
@@ -421,12 +419,15 @@ nav ul {
     font-size: 18px;
 }
 
-footer p {
-    font-size: 16px;
+.list_footer {
+    list-style-type: none;
+    padding-left: 0;
 }
 
-.heb_title {
-    margin: 5px 0px;
+footer li {
+    font-size: 16px;
+    font-weight: 300;
+    padding: 5px 0;
 }
 
 .bloc_footer {
@@ -455,6 +456,8 @@ footer p {
         width: 100%;
     }
 
+    /* Recherche */
+
     .search_items {
         padding-left: 20px;
     }
@@ -462,10 +465,13 @@ footer p {
         margin: 10px 5px;
     }
 
+    /* Hébergements */
 
     #hebergements {
         display: grid;
     }
+
+    /* Hébergements Marseille */
 
     .hebergements_marseille  {
         margin-bottom: 53px;
@@ -480,6 +486,8 @@ footer p {
     .card_img_heb img {
         width: 100%;
     }
+
+    /* Populaires */
 
     .populaires {
         width: 100%;
@@ -518,6 +526,8 @@ footer p {
         width: 96px;
         height: 144px;
     }
+
+    /* Activités */
 
     .card_activ {
         width: 182px;
@@ -829,7 +839,7 @@ footer p {
         background-color: #F2F2F2;
     }
 
-    .bloc_group_footer {
+    footer {
         display: flex;
         flex-direction: column;
         align-items: center;
