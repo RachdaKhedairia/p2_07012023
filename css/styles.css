@@ -80,8 +80,12 @@ nav ul {
     padding-bottom: 15px;
 }
 
-.star_active , .item_active {
+.item_active {
     color: #0065FC;
+}
+
+.item_inactive {
+    color: #f2f2f2
 }
 
 .location {
@@ -249,16 +253,13 @@ nav ul {
     margin-bottom: 5px;
 }
 
-.heb_title, .card_heb p {
+.heb_title , 
+.card_heb p {
     font-size: 15px;
 }
 
 .fa-star {
     font-size: 12px;
-}
-
-.star_inactive {
-    color: #f2f2f2
 }
 
 .hebergements_marseille h2 {
