@@ -1,6 +1,7 @@
 body {
     font-family: 'Raleway', sans-serif;
     max-width: 1400px;
+    margin: 0 auto;
 }
  
 /* HEADER */
@@ -450,7 +451,7 @@ footer li {
 
 /*TABLETTE*/
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 991px) {
 
     body {
         margin: 0px;
@@ -555,7 +556,7 @@ footer li {
 
 /* MOBILE*/
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
 
     body {
         margin: 0;
